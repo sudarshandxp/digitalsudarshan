@@ -1,0 +1,17 @@
+{
+  "name": "Sudarshan Patil — Digital Marketing Consultant",
+  "short_name": "Sudarshan Patil",
+  "description": "Helping businesses generate qualified leads through SEO, performance marketing & growth strategy.",
+  "start_url": "/index.html",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0B0F19",
+  "theme_color": "#0B0F19",
+  "icons": [
+    {
+      "src": "images/profile.jpg",
+      "sizes": "700x756",
+      "type": "image/jpeg"
+    }
+  ]
+}
