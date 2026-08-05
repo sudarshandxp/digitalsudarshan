@@ -71,7 +71,7 @@ h1,h2,h3,h4{ font-family:var(--f-display); line-height:var(--lh-tight); font-wei
 }
 .btn-primary:hover{ background-position:100% 50%; transform:translateY(-2px); }
 .btn-ghost{
-  border:1px solid var(--c-border-strong); color:var(--c-white); backdrop-filter:blur(6px); background:rgba(255,255,255,0.7);
+  border:1px solid var(--c-border-strong); color:var(--c-white); backdrop-filter:blur(6px); background:rgba(255,255,255,0.72);
 }
 .btn-ghost:hover{ border-color:var(--c-cyan); color:var(--c-cyan); transform:translateY(-2px); }
 .btn-sm{ padding:.7rem 1.3rem; font-size:var(--fs-xs); }
@@ -79,7 +79,7 @@ h1,h2,h3,h4{ font-family:var(--f-display); line-height:var(--lh-tight); font-wei
 
 /* ---------- Glass / Card ---------- */
 .glass{
-  background:linear-gradient(180deg, rgba(255,255,255,0.045), rgba(255,255,255,0.015));
+  background:linear-gradient(180deg, rgba(255,255,255,0.88), rgba(255,255,255,0.72));
   border:1px solid var(--c-border);
   backdrop-filter:blur(18px) saturate(140%);
   border-radius:var(--r-lg);
