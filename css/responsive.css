@@ -14,8 +14,10 @@
   .nav-toggle{ display:grid; }
   .nav.menu-open .nav-links{
     display:flex; position:fixed; inset:var(--nav-h) 0 0 0; flex-direction:column; padding:var(--sp-8) var(--gutter);
-    background:rgba(11,15,25,0.98); backdrop-filter:blur(20px); gap:var(--sp-6); align-items:flex-start;
+    background:rgba(255,255,255,0.96); backdrop-filter:blur(20px); gap:var(--sp-6); align-items:flex-start;
   }
+  .nav.menu-open .nav-links a{ color:var(--c-gray); }
+  .nav.menu-open .nav-links a.active{ color:var(--c-blue); }
   .nav.menu-open .nav-links a{ font-size:var(--fs-lg); }
 
   .hero-inner{ grid-template-columns:1fr; text-align:center; }

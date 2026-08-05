@@ -5,11 +5,11 @@
 
 :root{
   /* ---- Core palette ---- */
-  --c-bg:            #0B0F19;
-  --c-bg-soft:       #111827;
-  --c-bg-elevated:   #151B2C;
-  --c-border:        rgba(148,163,184,0.14);
-  --c-border-strong: rgba(148,163,184,0.28);
+  --c-bg:            #F8FAFC;
+  --c-bg-soft:       #F4F7FB;
+  --c-bg-elevated:   #FFFFFF;
+  --c-border:        rgba(15,23,42,0.10);
+  --c-border-strong: rgba(15,23,42,0.16);
 
   --c-blue:          #2563EB;
   --c-blue-soft:     #3B82F6;
@@ -17,8 +17,8 @@
   --c-cyan:          #22D3EE;
   --c-mint:          #34D399;
 
-  --c-white:         #F8FAFC;
-  --c-gray:          #94A3B8;
+  --c-white:         #0F172A;
+  --c-gray:          #475569;
   --c-gray-dim:      #64748B;
 
   --grad-signal: linear-gradient(115deg, var(--c-blue) 0%, var(--c-purple) 55%, var(--c-cyan) 100%);
